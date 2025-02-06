@@ -1,0 +1,16 @@
+bot_config:
+ bot_name: "MotoGPArticleBot"
+ bluesky_credentials:
+   handle: "YOUR_BSKY_HANDLE"      # e.g., "my-handle.bsky.social"
+   password: "YOUR_BSKY_PASSWORD"
+ content_sources:
+   - name: "rss_feed"
+     url: "https://example.com/motogp/rss"    # A placeholder RSS link
+   - name: "bluesky_search"
+     query: "#MotoGP"
+   - name: "social_media"
+     platform: "OtherSocialMedia"             # e.g. "Twitter" or "Facebook"
+ posting_frequency: "daily"
+ hashtags: ["#MotoGP", "#Racing", "#News"]
+ max_post_length: 300
+ debug_mode: true
