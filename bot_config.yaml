@@ -1,7 +1,7 @@
 bot_config:
  bot_name: "MotoGPArticleBot"
  bluesky_credentials:
-   handle: "chicanechirps.bsky.social"      # e.g., "my-handle.bsky.social"
+   handle: "xxxv"      # e.g., "my-handle.bsky.social"
    password: "xxx"
  content_sources:
    - name: "rss_feed"
