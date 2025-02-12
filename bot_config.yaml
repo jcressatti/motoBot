@@ -1,11 +1,11 @@
 bot_config:
  bot_name: "MotoGPArticleBot"
  bluesky_credentials:
-   handle: "xxxv"      # e.g., "my-handle.bsky.social"
-   password: "xxx"
+   handle: "chicanechirps.bsky.social"      # e.g., "my-handle.bsky.social"
+   password: "bY8DHG5vsQrNb6e"
  content_sources:
    - name: "rss_feed"
-     url: "https://example.com/motogp/rss"    # A placeholder RSS link
+     url: "https://www.motorsport.com/rss/motogp/news/"    # RSS link
    - name: "bluesky_search"
      query: "#MotoGP"
    - name: "social_media"
