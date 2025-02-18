@@ -121,7 +121,7 @@ def main():
 
     # 3. Log in using your handle (or another identifier) and password
     logging.info(f"Logging in as {handle}")
-    session = client.login(identifier=handle, password=password)
+    session = client.login(handle=handle, password=password)
 
     if not session:
         logging.error("Failed to authenticate to Bluesky. Aborting.")
